@@ -1,0 +1,80 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+
+/* main nav bar style */
+nav {
+  background-color: rgb(238,238,238);
+  padding-right: 5%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+nav ul li {
+  
+  list-style: none;
+  padding: 0;
+  float: left;
+  padding-left: 20px;
+}
+
+nav ul li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+nav ul li a:active {
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+
+/* nav bar sub-styles */
+.left-aligned {
+  justify-content: start;
+}
+
+
+/* inverted colorscheme nav */
+
+.inverted-colors {
+  background-color: #555;
+}
+
+.inverted-colors a {
+  color: rgb(238,238,238);
+}
+
+pre {
+  background-color: #222;
+  color: white;
+  font-family: monospace;
+}
+
+
+
+.logo {
+  margin-right: auto;
+  font-size: 20pt;
+  color: #555;
+}
+
+.logo-right {
+  margin-left: auto;
+  font-size: 20pt;
+  color: #555;
+}
+
+
+
