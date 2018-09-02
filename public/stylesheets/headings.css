@@ -1,0 +1,66 @@
+#heading1 {
+    color: darkcyan;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 6px;
+  padding-left: 3px;
+}
+
+#heading2 {
+    background-color: black;
+    color: white;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 6px;
+    padding-left: 3px;
+}
+
+p {
+    margin-bottom: 55px;
+}
+.fancy-title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40pt;
+}
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.fancy span {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    text-shadow: 2px 2px lightgrey;
+}
+
+.fancy span::before,
+.fancy span::after {
+    
+    content: "";
+    position: absolute;
+    height: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    top: 0;
+     width: 600px;
+}
+
+.fancy span::before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.fancy span::after {
+    left: 100%;
+    margin-left: 15px;
+}
