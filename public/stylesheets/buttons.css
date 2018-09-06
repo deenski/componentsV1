@@ -1,0 +1,77 @@
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 10px;
+
+}
+.square {
+    grid-column: 1/2;
+    grid-row: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square-main {
+    background-color: white;
+    color: #222;
+    border: 2px solid #222;
+    min-width: 160px;
+    height: auto;
+    font-size: 20pt;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+}
+
+.square-inverted {
+    background-color: #222;
+    color: white;
+    border: 2px solid white;
+    min-width: 160px;
+    height: auto;
+    font-size: 20pt;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+
+}
+
+.bw-gradient {
+    background: linear-gradient(black, white);
+    border: 2px solid #222;
+    min-width: 160px;
+    height: auto;
+    font-size: 20pt;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+}
+
+.left-gradient {
+    background: linear-gradient(to left, black, white);
+    border: 2px solid #222;
+    min-width: 160px;
+    height: auto;
+    font-size: 20pt;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+}
+
+.right-gradient {
+    background: linear-gradient(to right, black, white);
+    border: 2px solid #222;
+    min-width: 160px;
+    height: auto;
+    font-size: 20pt;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+}
+
+.angled-gradient {
+    background: linear-gradient(45deg, black, white);
+    border: 2px solid #222;
+    min-width: 160px;
+    height: auto;
+    font-size: 20pt;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
+}

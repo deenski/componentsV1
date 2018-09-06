@@ -26,4 +26,9 @@ router.get('/headings', function(req, res, next) {
   });
 });
 
+router.get('/buttons', function(req, res, next) {
+  res.render('buttons', {
+    title: "Button Components"
+  })
+})
 module.exports = router;
